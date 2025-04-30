@@ -1,0 +1,9 @@
+build_kit:
+  name: rust
+  version: latest
+inbound_topics:
+  - name: AUDIO_IN
+    message_type: make87_messages.audio.frame_pcm_s16le.FramePcmS16le
+outbound_topics:
+  - name: AUDIO_OUT
+    message_type: make87_messages.audio.frame_pcm_s16le.FramePcmS16le
